@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="full test(failed)" verbose="0">
+    <classes>
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="setUpClass"/>
+          <include name="startDriver"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+    </classes>
+  </test> <!-- full test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
